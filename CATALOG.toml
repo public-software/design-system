@@ -1,0 +1,24 @@
+# Machine-readable entry for this repository. Aggregated into public-software/catalog.
+# Edit here; `pub catalog sync` propagates description, topics and custom properties to GitHub.
+
+[repo]
+name        = "design-system"
+ring        = "platform"          # spine | platform | system | domain | standards
+layers      = ["L10"]
+wave        = 1
+tier        = "incubating"        # incubating | stable | core | archived
+maintainers = ["maint-design-system"]
+summary     = "Tokens, type scale, icons, motion, shortcut map, command palette spec — the one look and feel."
+
+# One [[component]] per crate, app or service this workspace publishes.
+# planned: tokens (JSON+Rust) · icon set · shortcut registry · theme engine
+#
+# [[component]]
+# crate     = "pub-design-system-example"
+# kind      = "lib"                # lib | app | service | plugin | spec
+# ledger    = "<ledger entry name>"
+# readiness = "none"               # shipped | partial | seed | none
+# effort    = 3
+# specs     = []
+# provides  = ["public:area/iface@1"]
+# requires  = []
