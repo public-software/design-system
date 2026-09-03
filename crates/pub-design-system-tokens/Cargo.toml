@@ -1,0 +1,17 @@
+[package]
+name = "pub-design-system-tokens"
+description = "The design tokens of the suite: colour and spacing as typed Rust and as the W3C Design Tokens (DTCG) JSON interchange"
+readme = "README.md"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+authors.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+serde_json = { version = "1.0", features = ["float_roundtrip"] }

@@ -22,3 +22,13 @@ summary     = "Tokens, type scale, icons, motion, shortcut map, command palette 
 # specs     = []
 # provides  = ["public:area/iface@1"]
 # requires  = []
+
+[[component]]
+crate     = "pub-design-system-tokens"
+kind      = "lib"
+ledger    = "tokens"
+readiness = "partial"
+effort    = 2
+specs     = ["dtcg-format-2025.10", "dtcg-color-2025.10"]
+provides  = []
+requires  = []
